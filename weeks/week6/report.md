@@ -12,31 +12,31 @@
 
 ### Problem 1: Floating point numbers
 ```
-insert your pattern here
+\d\.\d+
 ```
 ### Problem 2: Years before 1990
 ```
-insert your pattern here
+[2-7](\s\w*)*\,*\:*(\s\w*)*\(19[0-8]\d\)
 ```
 ### Problem 3: Hexadecimal colors
 ```
-insert your pattern here
+#(\d|\w){6}
 ```
 ### Problem 4: Grayscale colors
 ```
-insert your pattern here
+#([0-9a-fA-F]{1,2})\1\1
 ```
 ### Problem 5: Too long lines
 ```
-insert your pattern here
+.+[o.]{12,16}.+
 ```
 ### Problem 6: Remove repeating words
 ```
-insert your pattern here
+(\"*\w+\"*\-*\w*\'*\w*\s)\1 replace with $1
 ```
 ### Problem 7: Match HTML tags
 ```
-insert your pattern here
+</*!*\w*\s*\w*>
 ```
 ### Problem 8: Cut numbers two digits after floating point
 ```
