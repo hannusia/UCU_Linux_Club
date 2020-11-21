@@ -40,7 +40,7 @@
 ```
 ### Problem 8: Cut numbers two digits after floating point
 ```
-insert your pattern here
+(\d\.\d{2})\d* replace $1
 ```
 ### Problem 9: Digit commas formatting
 ```
@@ -48,23 +48,24 @@ insert your pattern here
 ```
 ### Problem 10: Match lowercase function declarations
 ```
-insert your pattern here
+\w{8}\s[a-z]\w*\(\w*\)
 ```
 ### Problem 11: Change date formats
 ```
-insert your pattern here
+(\d{4})-(\d{2})-(\d{2}) replace with $3.$2.$1
 ```
 ### Problem 12: Validate 24h time format
 ```
-insert your pattern here
+((0|1)\d|2[0-3]):[0-5]\d
 ```
 ### Problem 13: Validate AM/PM time format
 ```
-insert your pattern here
+(\s\w); replace with $1,
 ```
 ### Problem 14: Pascal style to C-style parameters
 ```
-insert your pattern here
+#not finished yet 
+var\s+\w*\s=\snew
 ```
 ### Problem 15: Change variable initialization
 ```
@@ -72,7 +73,7 @@ insert your pattern here
 ```
 ### Problem 16: IPv6 adresses
 ```
-insert your pattern here
+(.{0,4}:){7}.{0,4}
 ```
 ### Problem 17: Validate 32 or 24 bit hexadecimal colors
 ```
